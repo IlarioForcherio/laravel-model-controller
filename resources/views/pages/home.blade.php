@@ -8,7 +8,7 @@
 
 @foreach ($all_movies as $element)
 
-<div>{{$element['title']}}</div>
+<div>{{$element->title}}</div>
     
 @endforeach
 
